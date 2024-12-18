@@ -204,7 +204,7 @@ app.post('/login', async (req, res) => {
     });
   }
 });
-app.listen(3000, () => {
+app.listen(8080, () => {
   console.log(`Server is running at http://localhost:5000`);
 });
 process.on('unhandledRejection', (reason) => {
